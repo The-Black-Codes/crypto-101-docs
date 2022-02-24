@@ -1,0 +1,76 @@
+---
+sidebar_position: 1
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import CodeBlock from "@theme/CodeBlock";
+
+# Start Here
+
+<div style={{ position: "relative", paddingBottom: "56.25%", height: 0 }}>
+  <iframe
+    src="https://www.loom.com/embed/b04e1a6703e945eeb0ce7be7967859a1"
+    frameborder="0"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+    }}
+  ></iframe>
+</div>
+
+This tutorial the written companion to a video series and [live webinar](https://www.linkedin.com/events/nft-sandsmartcontracts6899020242270724096/about/)!
+
+## Getting Started
+
+Clone the [repo](https://github.com/the-black-codes/crypto-101) and let's get started!
+
+### What you'll need
+
+- [Node.js](https://nodejs.org/en/download/) version 14 or above:
+  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+## Cloning the Repo
+
+```bash
+git clone https://github.com/The-Black-Codes/crypto-101.git
+```
+
+You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+
+## Install the deps
+
+From the project root directory
+
+<Tabs>
+  <TabItem value="yarn" label="yarn" default>
+    <CodeBlock language="bash">{`yarn`}</CodeBlock>
+  </TabItem>
+  <TabItem value="npm" label="npm" default>
+    <CodeBlock language="bash">{`npm install`}</CodeBlock>
+  </TabItem>
+</Tabs>
+
+## Start your site
+
+Run the development server to ensure React is working as expected!
+
+<Tabs>
+  <TabItem value="yarn" label="yarn" default>
+    <CodeBlock language="bash">{`yarn start`}</CodeBlock>
+  </TabItem>
+  <TabItem value="npm" label="npm" default>
+    <CodeBlock language="bash">{`npm run start`}</CodeBlock>
+  </TabItem>
+</Tabs>
+
+The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+
+The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.

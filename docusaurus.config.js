@@ -38,10 +38,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Crypto 101: Smart Contracts and NFTS",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "The Black Codes",
+          src: "img/tbc.jpeg",
         },
         items: [
           {
@@ -51,7 +51,7 @@ const config = {
             label: "Tutorial",
           },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/the-black-codes/crypto-101-docs",
             label: "GitHub",
             position: "right",
           },
